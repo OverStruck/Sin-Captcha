@@ -15,7 +15,8 @@ class SinCaptcha {
 	 * @var private array el HTML de los botones soportados
 	 */
 	private $btn_templates = array(
-		'button' => '<button type="submit" class="[class]" value="[val]" name="sin-captcha">[val]</button>', 'submit' => '<input type="submit" class="[class]" value="[val]" name="sin-captcha">'
+		'button' => '<button type="submit" class="[class]" value="[val]" name="[name]">[val]</button>', 
+		'submit' => '<input type="submit" class="[class]" value="[val]" name="sin-[name]">'
 	);
 	
 	/**
@@ -73,6 +74,7 @@ class SinCaptcha {
 			$btns .= preg_replace('/\[val\]/', $numbers[$i], $btn_template);
 		}
 		$btns = preg_replace('/\[class\]/', $this -> btn_class, $btns);
+		$btns = preg_replace('/\[name\]/', $this -> btn_name, $btns);
 		return $btns;
 	}
 
