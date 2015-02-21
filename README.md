@@ -1,6 +1,6 @@
 #Sin Captcha (Para Español leer mas abajo)
-*Sin Captcha* is a very simple PHP class use to generate a type of "captcha" that's not really a captcha.
-It basically allows you to add anti-bot type of check very easy.
+*Sin Captcha* is a very simple PHP class used to generate a type of "captcha" that's not really a captcha.
+It basically allows you to add anti-bot type of check very easily.
 
 ![Screenshot](http://i.imgur.com/Im3bwLl.png)
 
@@ -12,7 +12,7 @@ If the user clicks the correct number, you then, as the programmer, decide what 
 ###You can set:
 * A minimum/maximum number to use
 * The number of buttons to show/generate (defaults to 4)
-* The type of button: <input> or <button>
+* The type of button: `<input>` or `<button>`
 * A class attribute for the buttons
 * A name attribute for the buttons
 
@@ -39,18 +39,15 @@ Si el usuario hace clic en el número correcto, entonces tu, como el programador
 ### Puedes configurar:
 * Un número mínimo / máximo a usar
 * El número de botones para mostrar / generar (por defecto genera 4)
-* El tipo de botón: <input> o <button>
+* El tipo de botón: `<input>` o `<button>`
 * El atributo "class" para los botones
 * El atributo "name" para los botones
 
-Sólo tiene que poner los botones que se generan en un formulario o utilizar Ajax.
+Sólo tienes que poner los botones que se generan en un formulario o utilizar Ajax.
 
 Mira los archivos de ejemplo para ver un ejemplo sencillo de cómo utilizar esta clase.
 
 *Cualquier consejo o comentario es bienvenido. Si eres un programador o un estudiante, siéntete libre de agregar funciones o reparar bugs.*
-
-###Que esta pasando ahora?
-Como no tengo mucho tiempo, pulir este script sera un proceso lento que probablemente haré en mi tiempo libre cuando tenga ganas. Simplemente decidí subir este script para aquellas personas que estén interesadas en algo así.
 
 ###Como usar
 Simplemente sube los archivos a tu servidor web y el script estará listo para usarse. No requiere ningún tipo de instalación o bases de datos.
